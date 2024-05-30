@@ -14,6 +14,7 @@ service:
 resources:
   jotd-dns:
     type: dns
+    id: app-dns
   jotd-route:
     type: route
     params:
